@@ -1,0 +1,169 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f5f5f7;
+}
+
+.hero {
+  height: 100vh;
+  z-index: -10;
+}
+.hero .background {
+  z-index: -9;
+}
+
+.nav-link {
+  color: black;
+  transition: all;
+  transition-duration: 300ms;
+}
+.nav-link:hover {
+  color: hsl(0deg, 97%, 62%);
+}
+
+.ourservice {
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+}
+.ourservice .card {
+  box-shadow: 5px 5px 20px 1px #eee;
+  height: 10rem;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.question .card {
+  box-shadow: 5px 5px 20px 1px #eee;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem;
+}
+
+.purpose .card {
+  background: linear-gradient(319.6deg, rgb(243, 0, 79) 20.5%, rgb(255, 236, 68) 110.9%);
+  box-shadow: 5px 5px 20px 1px #eee;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.portfolio {
+  background-color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.portfolio .card {
+  box-shadow: 5px 5px 20px 1px #eee;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem;
+}
+
+.client {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.client .card {
+  box-shadow: 5px 5px 20px 1px #eee;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem;
+}
+.client .imagelogo {
+  height: 4rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: all;
+  transition-duration: 300ms;
+}
+.client .imagelogo:hover {
+  filter: none;
+}
+
+.kontak {
+  background-color: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.kontak .link {
+  transition: all;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+.kontak .link:hover {
+  color: hsl(0deg, 97%, 62%);
+}
+
+.footer {
+  background-color: rgb(173, 0, 0);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.footer .title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.footer .content {
+  color: #ccc;
+}
+.footer .link {
+  transition: all;
+  transition-duration: 300ms;
+  display: block;
+  cursor: pointer;
+  color: #ccc;
+}
+.footer .link:hover {
+  color: white;
+  font-weight: bold;
+}
+.footer .iconsocial {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 300ms;
+  color: #ccc;
+}
+.footer .iconsocial:hover {
+  scale: 1.1;
+  color: white;
+}
+
+.button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: hsl(0deg, 97%, 62%);
+  color: white;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px #ddd;
+  z-index: 100;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 300ms;
+}
+.button:hover {
+  scale: 1.1;
+  color: #ffa5a5;
+}
+
+.button-sm {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: hsl(0deg, 97%, 62%);
+  color: white;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px #ddd;
+}
+
+.question {
+  margin-top: 7rem;
+}
