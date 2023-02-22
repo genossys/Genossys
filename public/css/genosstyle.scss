@@ -1,8 +1,13 @@
 $primary-color: hsl(0, 97%, 62%);
 $primary-colord1: rgb(173, 0, 0);
 $primary-colorl1: #ffa5a5;
+$primary-colorl2: #ffe0e0;
 $primary-soft-color1: #6cd8ff;
 $background-color: #f5f5f7;
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "DM Sans", sans-serif;
@@ -12,10 +17,6 @@ body {
 .hero {
   height: 100vh;
   z-index: -10;
-
-  .background {
-    z-index: -9;
-  }
 }
 
 .nav-link {
@@ -24,6 +25,7 @@ body {
   transition-duration: 300ms;
   &:hover {
     color: $primary-color;
+    font-weight: bold;
   }
 }
 // .ourservice{
@@ -37,6 +39,13 @@ body {
 //     border-radius: 30px;
 // }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
 .ourservice {
   margin-top: 5rem;
   padding-bottom: 2rem;
@@ -46,6 +55,18 @@ body {
     height: 10rem;
     border-radius: 30px;
     background-color: white;
+    transition: all ease-in-out;
+    transition-duration: 300ms;
+
+    .icon.hovered {
+      transition-duration: 500ms;
+      scale: 1.1;
+    }
+
+    &:hover {
+      scale: 1.1;
+      background-color: $primary-colorl1;
+    }
   }
 }
 
@@ -96,7 +117,6 @@ body {
   }
 
   .imagelogo {
-    height: 4rem;
     object-fit: contain;
     filter: grayscale(100%);
     cursor: pointer;
@@ -123,19 +143,31 @@ body {
   }
 }
 
+.link {
+  transition: all;
+  transition-duration: 300ms;
+  display: block;
+  cursor: pointer;
+  color: #333;
+  &:hover {
+    color: black;
+    font-weight: bold;
+  }
+}
+
 .footer {
-  background-color: $primary-colord1;
+  background-color: $primary-colorl2;
   padding-top: 5rem;
   padding-bottom: 5rem;
   .title {
-    color: white;
+    color: black;
     font-weight: bold;
     margin-bottom: 1rem;
     font-size: 1.2rem;
   }
 
   .content {
-    color: #ccc;
+    color: #333;
   }
 
   .link {
@@ -143,9 +175,9 @@ body {
     transition-duration: 300ms;
     display: block;
     cursor: pointer;
-    color: #ccc;
+    color: #333;
     &:hover {
-      color: white;
+      color: black;
       font-weight: bold;
     }
   }
@@ -158,10 +190,10 @@ body {
     cursor: pointer;
     transition: all;
     transition-duration: 300ms;
-    color: #ccc;
+    color: #333;
     &:hover {
       scale: 1.1;
-      color: white;
+      color: black;
     }
   }
 }
@@ -199,4 +231,111 @@ body {
 
 .question {
   margin-top: 7rem;
+}
+
+// ANIMATION
+.acc1 {
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  height: 5%;
+  left: 15%;
+  bottom: 60%;
+
+  @keyframes example {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+      scale: 1.1;
+    }
+
+    75% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(0deg);
+      scale: 1;
+    }
+  }
+}
+
+.acc2 {
+  animation-name: breath;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  top: 23%;
+  left: 30%;
+  height: 8%;
+
+  @keyframes breath {
+    25% {
+      scale: 1.1;
+    }
+
+    100% {
+      scale: 1;
+    }
+  }
+}
+
+.acc3 {
+  animation-name: moveslightly;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  top: 23%;
+  right: 30%;
+  height: 8%;
+}
+
+@keyframes moveslightly {
+  25% {
+    transform: translate(10px, 20px);
+  }
+
+  50% {
+    transform: translate(20px, 10px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.acc4 {
+  animation-name: upndown;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  bottom: 10%;
+  left: 20%;
+  height: 27%;
+}
+
+@keyframes upndown {
+  50% {
+    transform: translate(0, 10px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.acc5 {
+  animation-name: breath;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  bottom: 20%;
+  right: 40%;
+  height: 10%;
+}
+
+.acc6 {
+  animation-name: upndown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  bottom: 10%;
+  right: 22%;
+  height: 15%;
 }
