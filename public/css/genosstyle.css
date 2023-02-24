@@ -146,11 +146,11 @@ body {
   z-index: 100;
   cursor: pointer;
   transition: all;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
 }
 .button:hover {
   scale: 1.1;
-  color: #ffa5a5;
+  background-color: #ffa5a5;
 }
 
 .button-sm {

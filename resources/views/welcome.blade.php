@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <div class="relative">
+    <div class="">
 
         {{-- NAVBAR --}}
         <nav id="beranda"
@@ -74,7 +74,7 @@
         </nav>
 
         {{-- HERO --}}
-        <section class="hero bg-white relative">
+        <section class="hero bg-white ">
             {{-- Headline --}}
             <div class="absolute left-20 top-1/3 w-1/3">
                 <p class="text-5xl  font-medium leading-snug" data-aos="fade-right" data-aos-duration="300">Wujudkan
@@ -85,13 +85,17 @@
                     website yang kamu
                     impikan, kontak kami untuk
                     informasi lebih lanjut</p>
-                <a class="mt-6 inline-block button" data-aos="fade-right" data-aos-duration="500" href="#">Kontak
-                    Kami</a>
+                <div data-aos="fade-right" data-aos-duration="500">
+                    <a class="mt-6 inline-block button" href="#">Kontak
+                        Kami</a>
+                </div>
+
             </div>
+
+            <img class="absolute right-0 top-0 h-100% " src="{{ asset('assets/images/background.png') }}" />
 
             <img class="absolute right-5 bottom-0 h-75% object-bottom object-contain"
                 src="{{ asset('assets/images/heroimage.png') }}" />
-            <img class="absolute right-0 top-0 h-100% background" src="{{ asset('assets/images/background.png') }}" />
 
 
         </section>

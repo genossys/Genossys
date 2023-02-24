@@ -25308,8 +25308,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\GARAPAN\website\genossys\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\GARAPAN\website\genossys\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\PROJECT\WEBSITE\Genossys\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\PROJECT\WEBSITE\Genossys\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

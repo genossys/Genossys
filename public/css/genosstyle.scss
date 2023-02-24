@@ -178,11 +178,11 @@ body {
   z-index: 100;
   cursor: pointer;
   transition: all;
-  transition-duration: 300ms;
+  transition-duration: 500ms;
 
   &:hover {
     scale: 1.1;
-    color: $primary-colorl1;
+    background-color: $primary-colorl1;
   }
 }
 
