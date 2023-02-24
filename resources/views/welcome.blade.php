@@ -34,8 +34,8 @@
         <nav
             class="z-20 bg-white border-gray-200 fixed top-0 left-0 right-0 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 shadow-sm">
             <div class="container flex flex-wrap items-center justify-between mx-auto ">
-                <a href="https://flowbite.com/" class="flex items-center">
-                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+                <a class="flex items-center">
+                    <img src="{{ asset('assets/icons/genossys1.svg') }}" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
                     <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Genossys</span>
                 </a>
                 <button data-collapse-toggle="navbar-default" type="button"
@@ -114,9 +114,9 @@
         </section>
 
         {{-- OUR SERVICE --}}
-        <a class="anchor" id="layanan"></a>
-        <section class="ourservice">
-            <div class="container  grid md:grid-cols-4 grid-cols-1 p-5 gap-10">
+        <a class="anchor " id="layanan"></a>
+        <section class="ourservice ">
+            <div class="container  grid md:grid-cols-4 grid-cols-1 p-5 gap-10 mx-auto">
                 <div data-aos="fade-up" data-aos-duration="500">
                     <div class="flex justify-center items-center">
                         <p class="md:text-4xl text-2xl font-medium text-center">Layanan <br> Kami</p>
@@ -285,12 +285,12 @@
 
                     <div class=" bg-white border border-gray-200 rounded-lg shadow-sm " data-aos="fade-up"
                         data-aos-duration="300">
-                        <a href="#">
+                        <a>
                             <img class="rounded-t-lg h-72 object-cover w-full" src="assets/images/sukmatrip.jpg"
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Sukmatrip.com</h5>
                             </a>
@@ -303,12 +303,12 @@
 
                     <div class=" bg-white border border-gray-200 rounded-lg shadow-sm " data-aos="fade-up"
                         data-aos-duration="300">
-                        <a href="#">
+                        <a>
                             <img class="rounded-t-lg h-72 object-cover w-full" src="assets/images/omahgue.jpg"
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Omah Gue</h5>
                             </a>
@@ -321,12 +321,12 @@
 
                     <div class=" bg-white border border-gray-200 rounded-lg shadow-sm " data-aos="fade-up"
                         data-aos-duration="300">
-                        <a href="#">
+                        <a>
                             <img class="rounded-t-lg h-72 object-cover w-full" src="assets/images/solopos.jpg"
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Solopos</h5>
                             </a>
@@ -339,12 +339,12 @@
 
                     <div class=" bg-white border border-gray-200 rounded-lg shadow-sm " data-aos="fade-up"
                         data-aos-duration="300">
-                        <a href="#">
+                        <a>
                             <img class="rounded-t-lg h-72 object-cover w-full" src="assets/images/fasya.jpg"
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Fakultas Syariah </h5>
                             </a>
@@ -357,12 +357,12 @@
 
                     <div class=" bg-white border border-gray-200 rounded-lg shadow-sm " data-aos="fade-up"
                         data-aos-duration="300">
-                        <a href="#">
+                        <a>
                             <img class="rounded-t-lg h-72 object-cover w-full" src="assets/images/kiwi.jpg"
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Are You Smartest Kiwi</h5>
                             </a>
@@ -375,12 +375,12 @@
 
                     <div class=" bg-white border border-gray-200 rounded-lg shadow-sm " data-aos="fade-up"
                         data-aos-duration="300">
-                        <a href="#">
+                        <a>
                             <img class="rounded-t-lg h-72 object-cover w-full" src="assets/images/rsx.jpg"
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Raja Sulaiman Express</h5>
                             </a>
@@ -393,12 +393,12 @@
 
                     <div class=" bg-white border border-gray-200 rounded-lg shadow-sm " data-aos="fade-up"
                         data-aos-duration="300">
-                        <a href="#">
+                        <a>
                             <img class="rounded-t-lg h-72 object-cover w-full" src="assets/images/temanbelajar.jpg"
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Teman Belajar</h5>
                             </a>
@@ -411,12 +411,12 @@
 
                     <div class=" bg-white border border-gray-200 rounded-lg shadow-sm " data-aos="fade-up"
                         data-aos-duration="300">
-                        <a href="#">
+                        <a>
                             <img class="rounded-t-lg h-72 object-cover w-full" src="assets/images/yousee.jpg"
                                 alt="" />
                         </a>
                         <div class="p-5">
-                            <a href="#">
+                            <a>
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                     Yousee Indonesia</h5>
                             </a>
@@ -509,7 +509,8 @@
         <footer class="footer  ">
             <div class="container grid md:grid-cols-4 grid-cols-1 gap-10 md:mx-auto md:px-0 px-5">
                 <div class="md:col-span-2">
-                    <p class="title">Sejarah Singkat</p>
+
+                    <p class="title ">Sejarah Singkat</p>
                     <p class="content text-sm">Genossys didirikan pada tahun 2019 di Kota Surakarta sebagai perusahaan
                         pengembangan perangkat lunak. Perusahaan ini didirikan oleh Pradana Mahendra, Bagus Yanuar,
                         Taufiq
@@ -539,9 +540,8 @@
                     <a class="link" href="#portfolio">PortFolio</a>
                     <a class="link" href="#client">Klien Kami</a>
                     <a class="link" href="#contact">Kontak Kami</a>
-                </div>
-                <div>
-                    <p class="title">Media Sosial</p>
+
+                    <p class="title mt-10">Media Sosial</p>
                     <a><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="iconsocial"
                             viewBox="0 0 30 30">
                             <path fill="currentColor"
@@ -561,14 +561,13 @@
                             </path>
                         </svg></a>
 
-                    <p class="title mt-5">Credit</p>
-                    <a data-modal-target="kreditModal" data-modal-toggle="kreditModal"><svg
-                            xmlns="http://www.w3.org/2000/svg" x="0px" class="iconsocial" height="90"
-                            viewBox="0 0 30 30">
-                            <path fill="currentColor"
-                                d="M4,4v20c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V4H4z M18,8h-6c-0.552,0-1-0.448-1-1c0-0.552,0.448-1,1-1h6 c0.552,0,1,0.448,1,1C19,7.552,18.552,8,18,8z">
-                            </path>
-                        </svg></a>
+
+                </div>
+                <div>
+                    <img src="{{ asset('assets/icons/genossys2.svg') }}" />
+                    <p class="title mt-10">Credit</p>
+                    <a class="py-2 px-4  hover:bg-black bg-gray-700 text-white rounded-2xl cursor-pointer transition-all duration-300"
+                        data-modal-target="kreditModal" data-modal-toggle="kreditModal">Image Source </a>
                 </div>
 
 
@@ -616,6 +615,10 @@
                         title="device icons">Device
                         icons created by
                         Flat Icons - Flaticon</a>
+                    <a class="block link" target="_blank" href="https://smartmockups.com/"
+                        title="device icons">https://smartmockups.com/</a>
+
+
                 </div>
 
             </div>
