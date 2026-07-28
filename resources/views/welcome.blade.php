@@ -473,13 +473,13 @@
                         <p class="text-4xl text-center" data-aos="fade-up" data-aos-duration="300"><span
                                 class="text-red-500">Kontak </span> Kami
                         </p>
+                        <p class="text-center font-bold text-2xl text-gray-800 mt-6" data-aos="fade-up"
+                            data-aos-duration="300">CV GENOSSYS PRODUCTION</p>
                         <p class="text-center p-10 mb-0 pb-0 text-2xl text-gray-600" data-aos="fade-up"
                             data-aos-duration="300">Office</p>
                         <a class="text-center link font-bold text-lg block" data-aos="fade-up"
-                            data-aos-duration="300" href="https://goo.gl/maps/74mbortfrDm1H2a68" target="_blank">Jl.
-                            Ontorejo no: 8 Serengan
-                            Serengan
-                            Surakarta
+                            data-aos-duration="300" href="https://goo.gl/maps/74mbortfrDm1H2a68" target="_blank">Jalan Ontorejo No. 8, Kel. Serengan, Kec. Serengan,
+                            Kota Surakarta
                         </a>
 
                         <div class="md:grid md:grid-cols-3 " data-aos="fade-up" data-aos-duration="300">
@@ -565,7 +565,9 @@
                 </div>
                 <div>
                     <img src="{{ asset('assets/icons/genossys2.svg') }}" />
-                    <p class="title mt-10">Credit</p>
+                    <p class="title mt-6">CV GENOSSYS PRODUCTION</p>
+                    <p class="content text-sm">Jalan Ontorejo No. 8, Kel. Serengan,<br>Kec. Serengan, Kota Surakarta</p>
+                    <p class="title mt-6">Credit</p>
                     <a class="py-2 px-4  hover:bg-black bg-gray-700 text-white rounded-2xl cursor-pointer transition-all duration-300"
                         data-modal-target="kreditModal" data-modal-toggle="kreditModal">Image Source </a>
                 </div>
@@ -573,6 +575,9 @@
 
 
 
+            </div>
+            <div class="border-t border-gray-300 mt-10 pt-6 text-center">
+                <p class="text-sm text-gray-500">&copy; 2026 CV GENOSSYS PRODUCTION. All rights reserved.</p>
             </div>
         </footer>
     </div>
